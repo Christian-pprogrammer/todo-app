@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+input {
+    width: 70%;
+    height: 32px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 5px;
+}
+input:focus {
+    outline: none;
+}
+button { 
+    padding: 6.5px 30px;
+    float: right;
+}
+
+img {
+    clear: right;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    left: 350px;
+    top: 5px;
+}
+div:not(.container){
+    background-color: cornsilk;
+    border-left: solid green;
+    padding: 5px;
+    position: relative;
+}
+input[type=checkbox]{
+    float: left;
+}
+.todo{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    overflow: auto;
+}
+.myclass{
+    text-decoration: line-through;
+}
